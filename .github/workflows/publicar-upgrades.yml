@@ -1,0 +1,109 @@
+name: Publicar atualizações do B-wind
+
+
+
+on:
+
+  push:
+  
+    paths:
+    
+      - 'BwindBrowser_Upgrades_*.zip'
+      
+  workflow_dispatch:
+  
+
+
+permissions:
+
+  contents: write
+  
+
+
+jobs:
+
+  publicar:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+      - name: Baixar repositório
+      
+        uses: actions/checkout@v4
+        
+
+
+      - name: Descompactar e publicar atualização
+      
+        run: |
+        
+          ARCHIVE="$(find . -maxdepth 1 -name 'BwindBrowser_Upgrades_*.zip' -print | sort | tail -n 1)"
+          
+          if [ -z "$ARCHIVE" ]; then
+          
+            echo "Nenhum pacote de atualização foi encontrado."
+            
+            exit 1
+            
+          fi
+          
+          rm -rf "$RUNNER_TEMP/bwind-upgrade"
+          
+          mkdir -p "$RUNNER_TEMP/bwind-upgrade"
+          
+          unzip -q "$ARCHIVE" -d "$RUNNER_TEMP/bwind-upgrade"
+          
+          rm -rf BrowserUpgrades
+          
+          cp -R "$RUNNER_TEMP/bwind-upgrade/BrowserUpgrades" ./BrowserUpgrades
+          
+          git config user.name "B-wind Browser Bot"
+          
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add BrowserUpgrades
+          
+          if git diff --cached --quiet; then
+          
+            echo "O canal de atualização já está atualizado."
+            
+          else
+          
+            git commit -m "Publicar atualização do B-wind Browser"
+            
+            git push
+            
+          fi
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
