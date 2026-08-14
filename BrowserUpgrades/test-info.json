@@ -1,0 +1,9 @@
+{
+  "name": "B-wind Browser interface test",
+  "versionName": "1.3.1-test",
+  "versionCode": 5,
+  "apkFile": "BwindBrowser_1.3.1-test.apk",
+  "sha256": "0ab2b17e5c2528914b0b6370651042f9dce3ca41bea316aecb3ca5807689f6a5",
+  "stableCatalogUnchanged": true,
+  "notes": "Build de teste para conferir a interface de extensões e botões da tela principal. Não substitui o catálogo estável."
+}
