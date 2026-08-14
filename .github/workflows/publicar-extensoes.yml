@@ -8,7 +8,7 @@ on:
   
     paths:
     
-      - 'BwindBrowser_Extensions_1.0.zip'
+      - 'BwindBrowser_Extensions_*.zip'
       
   workflow_dispatch:
   
@@ -38,11 +38,21 @@ jobs:
       
         run: |
         
+          ARCHIVE="$(find . -maxdepth 1 -name 'BwindBrowser_Extensions_*.zip' -print | sort | tail -n 1)"
+          
+          if [ -z "$ARCHIVE" ]; then
+          
+            echo "Nenhum pacote de extensões foi encontrado."
+            
+            exit 1
+            
+          fi
+          
           rm -rf "$RUNNER_TEMP/bwind-unpack"
           
           mkdir -p "$RUNNER_TEMP/bwind-unpack"
           
-          unzip -q BwindBrowser_Extensions_1.0.zip -d "$RUNNER_TEMP/bwind-unpack"
+          unzip -q "$ARCHIVE" -d "$RUNNER_TEMP/bwind-unpack"
           
           rm -rf Extensions
           
@@ -60,12 +70,17 @@ jobs:
             
           else
           
-            git commit -m "Publicar catálogo de extensões 1.0.0"
+            git commit -m "Publicar catálogo de extensões"
             
             git push
             
           fi
           
+
+
+
+
+
 
 
 
