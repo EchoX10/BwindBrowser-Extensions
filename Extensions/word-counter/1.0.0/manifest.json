@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.word-counter",
+  "name": "Contador de Palavras",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para contar as palavras do conteúdo da página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "word-count",
+    "label": "Palavras",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.auto-refresh",
+  "name": "Atualização Automática",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para atualizar a aba a cada 15, 30 ou 60 segundos.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "auto-refresh",
+    "label": "Automático",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

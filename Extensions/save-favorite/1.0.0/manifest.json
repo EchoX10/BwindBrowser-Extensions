@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.save-favorite",
+  "name": "Salvar Favorito",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para salvar a página atual nos favoritos.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "favorite",
+    "label": "Favorito",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

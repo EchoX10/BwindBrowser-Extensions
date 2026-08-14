@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.scroll-bottom",
+  "name": "Ir para o Fim",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para rolar suavemente até o final da página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "scroll-bottom",
+    "label": "Fim",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

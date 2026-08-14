@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.image-visibility",
+  "name": "Ocultar Imagens",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para mostrar ou ocultar imagens e vídeos na página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "image-toggle",
+    "label": "Imagens",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.scroll-top",
+  "name": "Ir para o Topo",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para rolar suavemente até o começo da página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "scroll-top",
+    "label": "Topo",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

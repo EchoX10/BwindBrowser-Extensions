@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.stop-loading",
+  "name": "Parar Carregamento",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para interromper o carregamento atual da página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "stop-loading",
+    "label": "Parar",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

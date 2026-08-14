@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.home-page",
+  "name": "Ir para o Início",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para voltar para a página inicial configurada no B-wind.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "home",
+    "label": "Início",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

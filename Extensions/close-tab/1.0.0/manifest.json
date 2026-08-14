@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.close-tab",
+  "name": "Fechar Aba",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para fechar a aba atual sem sair do B-wind Browser.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "close-tab",
+    "label": "Fechar",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

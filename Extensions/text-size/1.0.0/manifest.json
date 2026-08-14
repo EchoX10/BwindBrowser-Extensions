@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.text-size",
+  "name": "Tamanho do Texto",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para escolher o tamanho do texto na página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "text-size",
+    "label": "Texto",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

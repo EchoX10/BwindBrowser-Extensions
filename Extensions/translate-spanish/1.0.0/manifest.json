@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.translate-spanish",
+  "name": "Traduzir para Espanhol",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para abrir a tradução da página para espanhol.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "translate-es",
+    "label": "Espanhol",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

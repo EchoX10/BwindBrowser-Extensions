@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.media-controller",
+  "name": "Controlador de Mídia",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para reproduzir ou pausar vídeos e áudios da página.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "media-toggle",
+    "label": "Mídia",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}
