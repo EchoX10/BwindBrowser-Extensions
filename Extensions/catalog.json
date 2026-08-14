@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "B-wind Browser Extensions",
-  "generatedAt": "2026-08-14T16:15:32.289852+00:00",
+  "generatedAt": "2026-08-14T17:41:34.727966+00:00",
   "extensions": [
     {
       "id": "bwind.ad-block",
@@ -15,6 +15,84 @@
       "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/ad-block/1.0.0/ad-block-1.0.0.zip",
       "sha256": "d592fbcabe2e9ac58c001db572561504437c0043a79a4522821902ba10599ce9",
       "sizeBytes": 1581
+    },
+    {
+      "id": "bwind.quick-share",
+      "slug": "quick-share",
+      "name": "Compartilhar Página",
+      "description": "Adiciona um botão para abrir o compartilhamento do Android com o endereço da página atual.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "browser-command",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/quick-share/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/quick-share/1.0.0/quick-share-1.0.0.zip",
+      "sha256": "994e6d9922408e68214e9f39d79213c42fa9b6737f3f39a572bf08b5114caf51",
+      "sizeBytes": 630
+    },
+    {
+      "id": "bwind.find-on-page",
+      "slug": "find-on-page",
+      "name": "Encontrar na Página",
+      "description": "Adiciona um botão para procurar palavras e frases na página que está aberta.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "browser-command",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/find-on-page/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/find-on-page/1.0.0/find-on-page-1.0.0.zip",
+      "sha256": "a9c95df2e8a8bb39538bdb015487e795e866840f05224429015a235993dc70fb",
+      "sizeBytes": 626
+    },
+    {
+      "id": "bwind.site-tools",
+      "slug": "site-tools",
+      "name": "Ferramentas por Site",
+      "description": "Adiciona um painel para copiar título, endereço e texto selecionado da página.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-script",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-tools/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-tools/1.0.0/site-tools-1.0.0.zip",
+      "sha256": "263617ca8d309091f86cecb8694c63aeffda2e30fbf0176e215c7a99c0c62918",
+      "sizeBytes": 1388
+    },
+    {
+      "id": "bwind.privacy-cleaner",
+      "slug": "privacy-cleaner",
+      "name": "Limpeza de Navegação",
+      "description": "Adiciona um botão para limpar cache e histórico das abas, preservando favoritos e extensões.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "browser-command",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/privacy-cleaner/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/privacy-cleaner/1.0.0/privacy-cleaner-1.0.0.zip",
+      "sha256": "8bb4814be76fbcbd46d72cbb9c1714122e5a3f55d41f3f0ed3551ffe10d520bc",
+      "sizeBytes": 645
+    },
+    {
+      "id": "bwind.desktop-mode",
+      "slug": "desktop-mode",
+      "name": "Modo Computador",
+      "description": "Adiciona um botão para alternar a página entre identificação de celular e computador.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "browser-command",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/desktop-mode/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/desktop-mode/1.0.0/desktop-mode-1.0.0.zip",
+      "sha256": "a9074a5246cf6af168fa764ae89a057c06175483f8fc15ebff7c81be7fec4345",
+      "sizeBytes": 627
+    },
+    {
+      "id": "bwind.reader-mode",
+      "slug": "reader-mode",
+      "name": "Modo Leitura",
+      "description": "Foca no texto de artigos, remove elementos de distração e aumenta a legibilidade.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-script",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/reader-mode/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/reader-mode/1.0.0/reader-mode-1.0.0.zip",
+      "sha256": "8ee30a3df2bfb9897168d87531f4bd31f927c32b99d791dd2037715dc20c947b",
+      "sizeBytes": 1266
     },
     {
       "id": "bwind.new-tab",
@@ -56,30 +134,17 @@
       "sizeBytes": 1065
     },
     {
-      "id": "bwind.reader-mode",
-      "slug": "reader-mode",
-      "name": "Modo Leitura",
-      "description": "Foca no texto de artigos, remove elementos de distração e aumenta a legibilidade.",
+      "id": "bwind.page-zoom",
+      "slug": "page-zoom",
+      "name": "Zoom da Página",
+      "description": "Adiciona um botão na tela principal para aumentar, diminuir ou restaurar o zoom da página.",
       "latestVersion": "1.0.0",
       "minBrowserVersion": "1.1.0",
-      "type": "content-script",
-      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/reader-mode/1.0.0/manifest.json",
-      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/reader-mode/1.0.0/reader-mode-1.0.0.zip",
-      "sha256": "8ee30a3df2bfb9897168d87531f4bd31f927c32b99d791dd2037715dc20c947b",
-      "sizeBytes": 1266
-    },
-    {
-      "id": "bwind.site-tools",
-      "slug": "site-tools",
-      "name": "Ferramentas por Site",
-      "description": "Adiciona um painel para copiar título, endereço e texto selecionado da página.",
-      "latestVersion": "1.0.0",
-      "minBrowserVersion": "1.1.0",
-      "type": "content-script",
-      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-tools/1.0.0/manifest.json",
-      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-tools/1.0.0/site-tools-1.0.0.zip",
-      "sha256": "263617ca8d309091f86cecb8694c63aeffda2e30fbf0176e215c7a99c0c62918",
-      "sizeBytes": 1388
+      "type": "browser-command",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/page-zoom/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/page-zoom/1.0.0/page-zoom-1.0.0.zip",
+      "sha256": "84090a532ae4ddaf292cca85b9855bf42fecee6e60404cc199c4517ee10c2a4f",
+      "sizeBytes": 625
     }
   ]
 }

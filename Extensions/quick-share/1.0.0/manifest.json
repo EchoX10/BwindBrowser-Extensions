@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.quick-share",
+  "name": "Compartilhar Página",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para abrir o compartilhamento do Android com o endereço da página atual.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "share",
+    "label": "Compartilhar",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

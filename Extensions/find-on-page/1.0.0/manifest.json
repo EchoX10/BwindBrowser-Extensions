@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.find-on-page",
+  "name": "Encontrar na Página",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para procurar palavras e frases na página que está aberta.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "find",
+    "label": "Encontrar",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

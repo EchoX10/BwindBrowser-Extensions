@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.desktop-mode",
+  "name": "Modo Computador",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para alternar a página entre identificação de celular e computador.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "desktop",
+    "label": "Computador",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}

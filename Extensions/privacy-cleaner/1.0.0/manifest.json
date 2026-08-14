@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.privacy-cleaner",
+  "name": "Limpeza de Navegação",
+  "version": "1.0.0",
+  "description": "Adiciona um botão para limpar cache e histórico das abas, preservando favoritos e extensões.",
+  "type": "browser-command",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "browser_command"
+  ],
+  "entry": {
+    "script": "script.js"
+  },
+  "browserAction": {
+    "id": "privacy-cleaner",
+    "label": "Limpar",
+    "placement": "main_browser_bar"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}
