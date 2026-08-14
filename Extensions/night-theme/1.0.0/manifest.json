@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "bwind.night-theme",
   "name": "Tema Noturno de Páginas",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Escurece páginas com contraste confortável para leitura noturna.",
   "type": "content-style",
   "matches": [
