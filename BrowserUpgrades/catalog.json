@@ -1,11 +1,20 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 6,
-  "versionName": "1.4.0",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.4.0.apk",
-  "sha256": "db17d6ac5ed1d21b909f0e41858851bd226f846907f433c136aed11fe5a1375b",
-  "sizeBytes": 9198272,
-  "notes": "Nova experiência do aplicativo: telas próprias de abas, histórico, favoritos, downloads com barra de progresso, configurações ampliadas e melhorias de desempenho.",
-  "publishedAt": "2026-08-14T19:10:00Z"
+  "versionCode": 7,
+  "versionName": "1.4.1-fix:bugs",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.4.1-fix-bugs.apk",
+  "sha256": "b0e88b72a8489895188ff18ae76bc3c6448a380b07f693b1079f87411374e036",
+  "sizeBytes": 9199704,
+  "notes": "1.4.1-fix:bugs — Correções: a rotação da tela não volta mais para o Google e preserva a página atual; cada card de aba ganhou botão X para excluir individualmente; a última aba é reiniciada com segurança. Nova função: Configurações > Aplicativo padrão > Definir B-wind como navegador padrão, usando a solicitação oficial do Android. Links HTTP e HTTPS agora podem abrir no B-wind quando ele for escolhido como padrão.",
+  "changelog": [
+    "Corrigida a perda da página atual ao virar a tela.",
+    "Preservadas as abas abertas durante a rotação do aparelho.",
+    "Adicionado botão X para excluir uma aba individual na tela Abas abertas.",
+    "A última aba fechada é reiniciada como Nova aba, sem deixar a tela vazia.",
+    "Adicionada opção para definir o B-wind Browser como navegador padrão.",
+    "Adicionado suporte a links HTTP e HTTPS recebidos pelo navegador padrão.",
+    "Mantidas as telas de histórico, favoritos, downloads e configurações da versão 1.4.0."
+  ],
+  "publishedAt": "2026-08-14T19:30:00Z"
 }
