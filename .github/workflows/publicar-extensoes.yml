@@ -1,0 +1,94 @@
+name: Publicar catálogo de extensões
+
+
+
+on:
+
+  push:
+  
+    paths:
+    
+      - 'BwindBrowser_Extensions_1.0.zip'
+      
+  workflow_dispatch:
+  
+
+
+permissions:
+
+  contents: write
+  
+
+
+jobs:
+
+  publicar:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+      - name: Baixar repositório
+      
+        uses: actions/checkout@v4
+        
+
+
+      - name: Descompactar e publicar catálogo
+      
+        run: |
+        
+          rm -rf "$RUNNER_TEMP/bwind-unpack"
+          
+          mkdir -p "$RUNNER_TEMP/bwind-unpack"
+          
+          unzip -q BwindBrowser_Extensions_1.0.zip -d "$RUNNER_TEMP/bwind-unpack"
+          
+          rm -rf Extensions
+          
+          cp -R "$RUNNER_TEMP/bwind-unpack/Extensions" ./Extensions
+          
+          git config user.name "B-wind Browser Bot"
+          
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add Extensions
+          
+          if git diff --cached --quiet; then
+          
+            echo "O catálogo já está atualizado."
+            
+          else
+          
+            git commit -m "Publicar catálogo de extensões 1.0.0"
+            
+            git push
+            
+          fi
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
