@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 4,
-  "versionName": "1.3.0",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.3.0.apk",
-  "sha256": "a7fe662cb448fab5a00acd38331f7c3c16e5002babc5712601b10b8046eaa3f4",
+  "versionCode": 5,
+  "versionName": "1.3.1",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.3.1.apk",
+  "sha256": "ef0ca388536cbf3f0417fc0e17d4d19d51ff86627e4b796d379846931639a47e",
   "sizeBytes": 9182878,
-  "notes": "Canal oficial de atualizações pelo GitHub, 33 extensões e verificação de integridade do APK.",
-  "publishedAt": "2026-08-14T18:08:00Z"
+  "notes": "Atualização limpa: mesmo B-wind Browser 1.3.0, com a interface e as funções preservadas; somente a versão foi elevada para testar o atualizador.",
+  "publishedAt": "2026-08-14T18:35:00Z"
 }
