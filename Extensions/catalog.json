@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "B-wind Browser Extensions",
-  "generatedAt": "2026-08-14T17:58:57.951315+00:00",
+  "generatedAt": "2026-08-14T20:30:00Z",
   "extensions": [
     {
       "id": "bwind.high-contrast",
@@ -431,6 +431,51 @@
       "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/page-zoom/1.0.0/page-zoom-1.0.0.zip",
       "sha256": "84090a532ae4ddaf292cca85b9855bf42fecee6e60404cc199c4517ee10c2a4f",
       "sizeBytes": 625
+    },
+    {
+      "slug": "web-lab",
+      "id": "bwind.weblab",
+      "name": "WebLab",
+      "description": "Laboratório visual completo para selecionar, duplicar, editar, colorir, flutuar e aplicar efeitos aos elementos da página, com desfazer, refazer e presets locais.",
+      "type": "weblab",
+      "schemaVersion": 1,
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/web-lab/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/web-lab/1.0.0/web-lab-1.0.0.zip",
+      "sha256": "8ed97783e7d0ce67167987ff0bb4dea79fb34daad33a6bfce9c547e12b1aa2e5",
+      "sizeBytes": 3151,
+      "minBrowserVersion": "1.1.0",
+      "updateChannel": "stable"
+    },
+    {
+      "slug": "site-detective",
+      "id": "bwind.site.detective",
+      "name": "Site Detective",
+      "description": "Painel real de análise do site atual com tecnologia detectável, scripts, imagens, links, estilos, cookies acessíveis, requisições observáveis e responsividade.",
+      "type": "site-detective",
+      "schemaVersion": 1,
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-detective/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-detective/1.0.0/site-detective-1.0.0.zip",
+      "sha256": "f9ff281e4db17ebbe0d6c93e1597af3a9d6c51db042155b115afd27074b75c0e",
+      "sizeBytes": 2912,
+      "minBrowserVersion": "1.1.0",
+      "updateChannel": "stable"
+    },
+    {
+      "slug": "web-arcade",
+      "id": "bwind.web.arcade",
+      "name": "Web Arcade",
+      "description": "Arcade jogável sobre a página com Clicker, Web Chaos, Coin Hunt, Invasão, pontuação, tempo e modos personalizados.",
+      "type": "web-arcade",
+      "schemaVersion": 1,
+      "latestVersion": "1.0.0",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/web-arcade/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/web-arcade/1.0.0/web-arcade-1.0.0.zip",
+      "sha256": "8034c82fc390724bcb5c4874edbe3d05916c51ec1c13d2a39c7bf1739400bed6",
+      "sizeBytes": 3265,
+      "minBrowserVersion": "1.1.0",
+      "updateChannel": "stable"
     }
   ]
 }

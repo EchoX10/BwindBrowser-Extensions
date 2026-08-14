@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.site.detective",
+  "name": "Site Detective",
+  "version": "1.0.0",
+  "description": "Painel real de análise do site atual com tecnologia detectável, scripts, imagens, links, estilos, cookies acessíveis, requisições observáveis e responsividade.",
+  "type": "site-detective",
+  "matches": ["*"],
+  "permissions": ["dom", "performance", "storage"],
+  "entry": {"script": "script.js"},
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable",
+  "browserAction": {"label": "🕵️ Detective", "command": "site-detective"}
+}

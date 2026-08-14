@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.weblab",
+  "name": "WebLab",
+  "version": "1.0.0",
+  "description": "Laboratório visual completo para selecionar, duplicar, editar, colorir, flutuar e aplicar efeitos aos elementos da página, com desfazer, refazer e presets locais.",
+  "type": "weblab",
+  "matches": ["*"],
+  "permissions": ["dom", "storage"],
+  "entry": {"script": "script.js"},
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable",
+  "browserAction": {"label": "🧪 WebLab", "command": "weblab"}
+}

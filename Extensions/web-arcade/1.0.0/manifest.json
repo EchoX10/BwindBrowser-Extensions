@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.web.arcade",
+  "name": "Web Arcade",
+  "version": "1.0.0",
+  "description": "Arcade jogável sobre a página com Clicker, Web Chaos, Coin Hunt, Invasão, pontuação, tempo e modos personalizados.",
+  "type": "web-arcade",
+  "matches": ["*"],
+  "permissions": ["dom", "storage", "animation"],
+  "entry": {"script": "script.js"},
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable",
+  "browserAction": {"label": "🎮 Arcade", "command": "web-arcade"}
+}
