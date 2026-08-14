@@ -1,20 +1,18 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 7,
-  "versionName": "1.4.1-fix:bugs",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.4.1-fix-bugs.apk",
-  "sha256": "b0e88b72a8489895188ff18ae76bc3c6448a380b07f693b1079f87411374e036",
-  "sizeBytes": 9199704,
-  "notes": "1.4.1-fix:bugs — Correções: a rotação da tela não volta mais para o Google e preserva a página atual; cada card de aba ganhou botão X para excluir individualmente; a última aba é reiniciada com segurança. Nova função: Configurações > Aplicativo padrão > Definir B-wind como navegador padrão, usando a solicitação oficial do Android. Links HTTP e HTTPS agora podem abrir no B-wind quando ele for escolhido como padrão.",
+  "versionCode": 8,
+  "versionName": "1.5.0",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.5.0.apk",
+  "sha256": "f934fd1e11a3f4e69ff0f20901f2241ba0a95e2d60910d3ebbc65a15ffe7fcb6",
+  "sizeBytes": 9200048,
+  "notes": "1.5.0 — Integração completa das experiências WebLab, Site Detective e Web Arcade. Os três botões aparecem na faixa principal depois de instalar e ativar as extensões pelo catálogo.",
   "changelog": [
-    "Corrigida a perda da página atual ao virar a tela.",
-    "Preservadas as abas abertas durante a rotação do aparelho.",
-    "Adicionado botão X para excluir uma aba individual na tela Abas abertas.",
-    "A última aba fechada é reiniciada como Nova aba, sem deixar a tela vazia.",
-    "Adicionada opção para definir o B-wind Browser como navegador padrão.",
-    "Adicionado suporte a links HTTP e HTTPS recebidos pelo navegador padrão.",
-    "Mantidas as telas de histórico, favoritos, downloads e configurações da versão 1.4.0."
+    "WebLab completo: seleção de elementos reais, duplicação, texto visual, imagem, cor, flutuação, terremoto, partículas, desfazer, refazer, restaurar e presets locais.",
+    "Site Detective completo: painel real com tecnologia detectável, scripts, imagens, links, folhas de estilo, formulários, iframes, elementos, cookies acessíveis, recursos observáveis, responsividade e relatório copiável.",
+    "Web Arcade completo: Clicker, Web Chaos, Coin Hunt, Invasão, pontuação, tempo, animação, encerramento por Sair ou Esc e criação de modos personalizados salvos no site.",
+    "Adicionados os comandos WebLab, Site Detective e Web Arcade à faixa de botões da tela principal.",
+    "Os três pacotes preservam a página no servidor: as experiências atuam apenas visualmente no WebView atual e possuem saída segura."
   ],
-  "publishedAt": "2026-08-14T19:30:00Z"
+  "publishedAt": "2026-08-14T20:45:00Z"
 }
