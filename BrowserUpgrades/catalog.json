@@ -1,25 +1,24 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 9,
-  "versionName": "1.6.0",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.0.apk",
-  "sha256": "726b909fbee830cd6e6e73138be7383c7b53fcdaba0a8940c3a123efed284bd8",
-  "sizeBytes": 9212356,
-  "notes": "1.6.0 — grande atualização nativa do B-wind Browser com tela inicial própria, downloads gerenciáveis, favoritos com pastas e backup, navegação aprimorada, configurações avançadas e proteções de segurança do WebView.",
+  "versionCode": 10,
+  "versionName": "1.6.1-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.1-fix.apk",
+  "sha256": "92c55ff57901561c2a232d8a3f0144d879ba6260886ccce4555aada442cf2401",
+  "sizeBytes": 9590488,
+  "notes": "1.6.1-fix — correções da Toolbar e grande pacote de melhorias nativas do B-wind Browser.",
   "changelog": [
-    "Adicionada tela inicial nativa do B-wind com busca, atalhos para Favoritos, Downloads, Abas e Configurações e favoritos recentes.",
-    "Adicionado gerenciador de downloads com pausa, retomada, progresso persistente, tentativa novamente, cancelamento, abertura de arquivos e limpeza de concluídos.",
-    "Adicionada retomada de download por HTTP Range quando o servidor suporta o recurso.",
-    "Adicionados favoritos com pastas, filtro por pasta, mover item, busca e exclusão.",
-    "Adicionado backup compartilhável de favoritos em JSON e importação sem duplicar endereços.",
-    "Adicionados botões voltar, avançar e recarregar na barra principal.",
-    "Adicionada opção para restaurar ou iniciar sem as abas anteriores.",
-    "Adicionadas opções para abrir links em nova aba, usar modo computador e escolher a tela inicial.",
-    "Adicionadas configurações de JavaScript, navegação segura, cookies de terceiros, economia de dados e confirmação de downloads.",
-    "Adicionado menu Segurança da página com identificação de HTTPS, HTTP e páginas internas.",
-    "Ativado bloqueio de conteúdo misto, permissões de sites, acesso a arquivos locais e esquemas perigosos.",
-    "Mantidas as 36 extensões do catálogo e as extensões interativas completas WebLab, Site Detective e Web Arcade."
+    "Corrigidos os botões vazios da Toolbar: voltar, avançar, recarregar e menu agora mostram ícone, rótulo e descrição de acessibilidade.",
+    "Adicionado modo anônimo com cache, histórico e abas salvas separados.",
+    "Adicionados grupos de abas, etiquetas de aba privada e reabertura da última aba fechada.",
+    "Adicionado backup completo em JSON com favoritos, histórico, abas, abas fechadas, páginas offline registradas e configurações.",
+    "Adicionado leitor de QR Code pela câmera.",
+    "Adicionados compartilhamento de página, modo leitor, tradução nativa e controles de mídia.",
+    "Adicionadas páginas offline com salvar, pesquisar, abrir e apagar.",
+    "Adicionado gerenciador de permissões de sites, bloqueado por padrão.",
+    "Adicionados temas escuro, claro e azul para a tela inicial.",
+    "Adicionadas opções de alto contraste, redução de animações e favoritos recentes na tela inicial.",
+    "Mantidas as 36 extensões do catálogo, incluindo WebLab, Site Detective e Web Arcade."
   ],
-  "publishedAt": "2026-08-14T21:15:00Z"
+  "publishedAt": "2026-08-14T21:30:00Z"
 }
