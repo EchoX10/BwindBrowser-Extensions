@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 5,
-  "versionName": "1.3.1",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.3.1.apk",
-  "sha256": "ef0ca388536cbf3f0417fc0e17d4d19d51ff86627e4b796d379846931639a47e",
-  "sizeBytes": 9182878,
-  "notes": "Atualização: apenas uma versão teste nada mais :/",
-  "publishedAt": "2026-08-14T18:35:00Z"
+  "versionCode": 6,
+  "versionName": "1.4.0",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.4.0.apk",
+  "sha256": "db17d6ac5ed1d21b909f0e41858851bd226f846907f433c136aed11fe5a1375b",
+  "sizeBytes": 9198272,
+  "notes": "Nova experiência do aplicativo: telas próprias de abas, histórico, favoritos, downloads com barra de progresso, configurações ampliadas e melhorias de desempenho.",
+  "publishedAt": "2026-08-14T19:10:00Z"
 }
