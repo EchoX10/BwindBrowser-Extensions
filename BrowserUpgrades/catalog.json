@@ -1,18 +1,25 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 8,
-  "versionName": "1.5.0",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.5.0.apk",
-  "sha256": "f934fd1e11a3f4e69ff0f20901f2241ba0a95e2d60910d3ebbc65a15ffe7fcb6",
-  "sizeBytes": 9200048,
-  "notes": "1.5.0 — Integração completa das experiências WebLab, Site Detective e Web Arcade. Os três botões aparecem na faixa principal depois de instalar e ativar as extensões pelo catálogo.",
+  "versionCode": 9,
+  "versionName": "1.6.0",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.0.apk",
+  "sha256": "726b909fbee830cd6e6e73138be7383c7b53fcdaba0a8940c3a123efed284bd8",
+  "sizeBytes": 9212356,
+  "notes": "1.6.0 — grande atualização nativa do B-wind Browser com tela inicial própria, downloads gerenciáveis, favoritos com pastas e backup, navegação aprimorada, configurações avançadas e proteções de segurança do WebView.",
   "changelog": [
-    "WebLab completo: seleção de elementos reais, duplicação, texto visual, imagem, cor, flutuação, terremoto, partículas, desfazer, refazer, restaurar e presets locais.",
-    "Site Detective completo: painel real com tecnologia detectável, scripts, imagens, links, folhas de estilo, formulários, iframes, elementos, cookies acessíveis, recursos observáveis, responsividade e relatório copiável.",
-    "Web Arcade completo: Clicker, Web Chaos, Coin Hunt, Invasão, pontuação, tempo, animação, encerramento por Sair ou Esc e criação de modos personalizados salvos no site.",
-    "Adicionados os comandos WebLab, Site Detective e Web Arcade à faixa de botões da tela principal.",
-    "Os três pacotes preservam a página no servidor: as experiências atuam apenas visualmente no WebView atual e possuem saída segura."
+    "Adicionada tela inicial nativa do B-wind com busca, atalhos para Favoritos, Downloads, Abas e Configurações e favoritos recentes.",
+    "Adicionado gerenciador de downloads com pausa, retomada, progresso persistente, tentativa novamente, cancelamento, abertura de arquivos e limpeza de concluídos.",
+    "Adicionada retomada de download por HTTP Range quando o servidor suporta o recurso.",
+    "Adicionados favoritos com pastas, filtro por pasta, mover item, busca e exclusão.",
+    "Adicionado backup compartilhável de favoritos em JSON e importação sem duplicar endereços.",
+    "Adicionados botões voltar, avançar e recarregar na barra principal.",
+    "Adicionada opção para restaurar ou iniciar sem as abas anteriores.",
+    "Adicionadas opções para abrir links em nova aba, usar modo computador e escolher a tela inicial.",
+    "Adicionadas configurações de JavaScript, navegação segura, cookies de terceiros, economia de dados e confirmação de downloads.",
+    "Adicionado menu Segurança da página com identificação de HTTPS, HTTP e páginas internas.",
+    "Ativado bloqueio de conteúdo misto, permissões de sites, acesso a arquivos locais e esquemas perigosos.",
+    "Mantidas as 36 extensões do catálogo e as extensões interativas completas WebLab, Site Detective e Web Arcade."
   ],
-  "publishedAt": "2026-08-14T20:45:00Z"
+  "publishedAt": "2026-08-14T21:15:00Z"
 }
