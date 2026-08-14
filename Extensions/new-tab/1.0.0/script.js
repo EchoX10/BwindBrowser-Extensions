@@ -1,0 +1,1 @@
+(() => { document.getElementById('search').addEventListener('submit', event => { event.preventDefault(); const q = document.getElementById('query').value.trim(); if (q) location.href = 'https://www.google.com/search?q=' + encodeURIComponent(q); }); })();

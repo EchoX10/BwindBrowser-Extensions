@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "name": "B-wind Browser Extensions",
+  "generatedAt": "2026-08-14T16:15:32.289852+00:00",
+  "extensions": [
+    {
+      "id": "bwind.ad-block",
+      "slug": "ad-block",
+      "name": "Bloqueador de Anúncios",
+      "description": "Bloqueia domínios comuns de publicidade e oculta espaços de anúncio na página.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-and-network-filter",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/ad-block/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/ad-block/1.0.0/ad-block-1.0.0.zip",
+      "sha256": "d592fbcabe2e9ac58c001db572561504437c0043a79a4522821902ba10599ce9",
+      "sizeBytes": 1581
+    },
+    {
+      "id": "bwind.new-tab",
+      "slug": "new-tab",
+      "name": "Nova Aba B-wind",
+      "description": "Define uma página inicial rápida e organizada para novas abas.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "new-tab",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/new-tab/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/new-tab/1.0.0/new-tab-1.0.0.zip",
+      "sha256": "64f1ca5d6548a6a21da92958505d1f51af3eb19ffa6e433dcc0a31eeb14c0d01",
+      "sizeBytes": 1570
+    },
+    {
+      "id": "bwind.night-theme",
+      "slug": "night-theme",
+      "name": "Tema Noturno de Páginas",
+      "description": "Escurece páginas com contraste confortável para leitura noturna.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-style",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/night-theme/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/night-theme/1.0.0/night-theme-1.0.0.zip",
+      "sha256": "55c524becec13a27352edd8d56b0f14a5441ace5ad2049d2808ab4af5f800426",
+      "sizeBytes": 935
+    },
+    {
+      "id": "bwind.page-translator",
+      "slug": "page-translator",
+      "name": "Tradutor de Página",
+      "description": "Abre a página atual no Google Tradutor em português com um toque.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-script",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/page-translator/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/page-translator/1.0.0/page-translator-1.0.0.zip",
+      "sha256": "022a37717e39a555a1133aabef86a3dbe91bd732fd1887dc9a6f2fb8639dcae5",
+      "sizeBytes": 1065
+    },
+    {
+      "id": "bwind.reader-mode",
+      "slug": "reader-mode",
+      "name": "Modo Leitura",
+      "description": "Foca no texto de artigos, remove elementos de distração e aumenta a legibilidade.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-script",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/reader-mode/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/reader-mode/1.0.0/reader-mode-1.0.0.zip",
+      "sha256": "8ee30a3df2bfb9897168d87531f4bd31f927c32b99d791dd2037715dc20c947b",
+      "sizeBytes": 1266
+    },
+    {
+      "id": "bwind.site-tools",
+      "slug": "site-tools",
+      "name": "Ferramentas por Site",
+      "description": "Adiciona um painel para copiar título, endereço e texto selecionado da página.",
+      "latestVersion": "1.0.0",
+      "minBrowserVersion": "1.1.0",
+      "type": "content-script",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-tools/1.0.0/manifest.json",
+      "packageUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Extensions/site-tools/1.0.0/site-tools-1.0.0.zip",
+      "sha256": "263617ca8d309091f86cecb8694c63aeffda2e30fbf0176e215c7a99c0c62918",
+      "sizeBytes": 1388
+    }
+  ]
+}

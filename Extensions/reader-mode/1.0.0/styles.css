@@ -1,0 +1,4 @@
+html[data-bwind-reader="on"] body { max-width: 860px !important; margin: 0 auto !important; padding: 24px !important; font-family: Georgia, serif !important; font-size: 20px !important; line-height: 1.72 !important; }
+html[data-bwind-reader="on"] article, html[data-bwind-reader="on"] main { max-width: 760px !important; margin: 0 auto !important; }
+html[data-bwind-reader="on"] img { max-width: 100% !important; height: auto !important; }
+#bwind-reader-button { position: fixed; right: 16px; bottom: 72px; z-index: 2147483647; border: 0; border-radius: 18px; padding: 10px 14px; background: #12d0e2; color: #071521; font-weight: 700; }

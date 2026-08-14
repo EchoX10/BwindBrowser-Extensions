@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "blockHosts": [
+    "doubleclick.net",
+    "googlesyndication.com",
+    "googleadservices.com",
+    "adservice.google.com",
+    "adsystem.com",
+    "scorecardresearch.com",
+    "taboola.com",
+    "outbrain.com",
+    "criteo.com",
+    "adnxs.com",
+    "amazon-adsystem.com"
+  ],
+  "blockUrlFragments": ["/ads/", "adserver", "trackingpixel", "doubleclick", "advertising"]
+}

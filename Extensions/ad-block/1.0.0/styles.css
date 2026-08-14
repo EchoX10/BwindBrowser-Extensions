@@ -1,0 +1,11 @@
+[data-bwind-ad-hidden="1"],
+.bwind-ad-hidden,
+ins.adsbygoogle,
+[class*="ad-container"],
+[id*="ad-container"] {
+  display: none !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

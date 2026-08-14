@@ -1,0 +1,6 @@
+:root { color-scheme: dark !important; }
+html, body { background: #101726 !important; color: #e9f3ff !important; }
+body * { border-color: rgba(145, 183, 255, .26) !important; }
+img, video, canvas { filter: brightness(.84) contrast(1.06) !important; }
+input, textarea, select, button { background-color: #202b42 !important; color: #eef6ff !important; }
+a { color: #58dcff !important; }

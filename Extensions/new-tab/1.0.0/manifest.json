@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "bwind.new-tab",
+  "name": "Nova Aba B-wind",
+  "version": "1.0.0",
+  "description": "Define uma página inicial rápida e organizada para novas abas.",
+  "type": "new-tab",
+  "matches": [
+    "*"
+  ],
+  "permissions": [
+    "new_tab"
+  ],
+  "entry": {
+    "page": "new_tab.html",
+    "script": "script.js",
+    "style": "styles.css"
+  },
+  "minBrowserVersion": "1.1.0",
+  "updateChannel": "stable"
+}
