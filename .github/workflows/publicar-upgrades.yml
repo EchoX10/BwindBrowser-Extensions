@@ -30,7 +30,11 @@ jobs:
           mkdir -p "$RUNNER_TEMP/bwind-upgrade"
           unzip -q "$ARCHIVE" -d "$RUNNER_TEMP/bwind-upgrade"
           test -f "$RUNNER_TEMP/bwind-upgrade/BrowserUpgrades/catalog.json"
-          test -f "$RUNNER_TEMP/bwind-upgrade/BrowserUpgrades/BwindBrowser_1.5.0.apk"
+          APK_COUNT="$(find "$RUNNER_TEMP/bwind-upgrade/BrowserUpgrades" -maxdepth 1 -name '*.apk' -type f | wc -l)"
+          if [ "$APK_COUNT" -ne 1 ]; then
+            echo "O pacote deve conter exatamente um APK; encontrados: $APK_COUNT"
+            exit 1
+          fi
           rm -rf BrowserUpgrades
           cp -R "$RUNNER_TEMP/bwind-upgrade/BrowserUpgrades" ./BrowserUpgrades
           git config user.name "B-wind Browser Bot"
