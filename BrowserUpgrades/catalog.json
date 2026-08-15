@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 14,
-  "versionName": "1.6.4-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.4-fix.apk",
-  "sha256": "cc6afe807973fda33ee0cad0ededb71394ce5ff42dd01dc153c1d9385d1f3627",
-  "sizeBytes": 9603222,
-  "notes": "1.6.4-fix — correção do fechamento após instalar beta, preservação de dados e logs de correções.",
+  "versionCode": 17,
+  "versionName": "1.6.5-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.5-fix.apk",
+  "sha256": "1c1241a2febd4c47cbc7e44641020f7214af45b35d79d8ec78d81b1bc02ce30f",
+  "sizeBytes": 9625510,
+  "notes": "1.6.5-fix — recuperação estável em processo separado, modo seguro e preservação de dados quando ocorre falha de inicialização.",
   "changelog": [
-    "Corrigida a recuperação depois de atualizar de uma versão beta para a estável.",
-    "O aplicativo tenta restaurar uma aba inicial sem pedir limpeza de cache ou dados.",
-    "Adicionados logs locais de inicialização, migração e erros fatais.",
-    "Adicionada tela para consultar, compartilhar e limpar manualmente os logs.",
-    "Protegida a sessão anônima contra falhas do diretório privado do WebView."
+    "Corrigido o caminho de recuperação quando o processo principal do WebView falha ao iniciar.",
+    "Adicionada tela de recuperação em processo separado com abertura sem restaurar abas.",
+    "Falhas não capturadas agora são registradas localmente sem depender da recomendação do Android para limpar cache.",
+    "Favoritos, histórico, downloads, páginas offline, extensões e configurações continuam preservados.",
+    "O canal beta 1.8.0-beta.3 permanece disponível separadamente para testes."
   ],
-  "publishedAt": "2026-08-15T03:00:00Z"
+  "publishedAt": "2026-08-15T03:13:05Z"
 }
