@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 18,
-  "versionName": "1.6.6-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.6-fix.apk",
-  "sha256": "8311b8bd95706e2a97ebb45b4eaa73759061e0544d1239b78287bb6491dc6b13",
-  "sizeBytes": 9629910,
-  "notes": "1.6.6-fix — correção do fechamento ao adicionar Web Apps; o Intent do atalho agora tem ação ACTION_VIEW e URI válida.",
+  "versionCode": 20,
+  "versionName": "1.6.7-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.7-fix.apk",
+  "sha256": "47ccb2dfe1e588a30da840ae21c20d24282ea5b17e4847c4cc9cfb62dfb656be",
+  "sizeBytes": 9629946,
+  "notes": "1.6.7-fix — correção do instalador de atualizações beta; FileProvider agora inclui browser_beta_upgrades.",
   "changelog": [
-    "Corrigido o fechamento causado por criar um Web App com Intent sem ação.",
-    "Atalhos Web App agora usam ACTION_VIEW, URI HTTPS/HTTP e componente interno explícito.",
-    "Mantida a recuperação sem limpeza de cache ou dados.",
-    "A beta 1.8.0-beta.4 inclui a mesma correção para Web Apps."
+    "Corrigido o erro Failed to find configured root ao instalar o APK beta baixado.",
+    "Adicionada ao FileProvider a raiz cache/browser_beta_upgrades usada pelo gerenciador de atualizações.",
+    "Mantida a preservação de cache, dados, favoritos, histórico e configurações.",
+    "CoolScript com wait([valor]) e correção de Web Apps continuam incluídos."
   ],
-  "publishedAt": "2026-08-15T18:50:21Z"
+  "publishedAt": "2026-08-15T18:58:05Z"
 }

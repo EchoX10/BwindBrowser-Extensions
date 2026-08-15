@@ -3,18 +3,18 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 19,
-  "versionName": "1.8.0-beta.4",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.4.apk",
-  "sha256": "83b4f6f5ed53a821b3305f88bdd2a9d44049015448035e8930e1aece1f4ec4bd",
-  "sizeBytes": 9629922,
+  "versionCode": 21,
+  "versionName": "1.8.0-beta.5",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.5.apk",
+  "sha256": "6fd01cc6be3949533b3f8bdfe71ba570798cc5375a36a11a5431f9370a9747d6",
+  "sizeBytes": 9629958,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.4 — correção de fechamento ao adicionar Web Apps com Intent válido.",
+  "notes": "1.8.0-beta.5 — correção do FileProvider para instalar atualizações beta baixadas pelo próprio navegador.",
   "changelog": [
-    "Corrigido o NullPointerException `intent's action must be set` ao adicionar Web Apps.",
-    "Atalhos Web App agora usam ACTION_VIEW, URI válida e componente interno explícito.",
-    "Mantida a recuperação em processo separado e o modo seguro sem limpar dados.",
-    "Logs de diagnóstico continuam registrando inicialização e falhas sem conteúdo sensível."
+    "Corrigido o erro Failed to find configured root ao instalar beta pelo atualizador interno.",
+    "Adicionada ao FileProvider a raiz cache/browser_beta_upgrades.",
+    "Mantidas a recuperação sem limpeza de dados, a correção de Web Apps e o CoolScript com wait([valor]).",
+    "O APK beta continua sujeito a erros experimentais e deve ser testado com backup."
   ],
-  "publishedAt": "2026-08-15T18:50:21Z"
+  "publishedAt": "2026-08-15T18:58:05Z"
 }
