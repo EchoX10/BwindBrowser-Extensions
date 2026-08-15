@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 20,
-  "versionName": "1.6.7-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.7-fix.apk",
-  "sha256": "47ccb2dfe1e588a30da840ae21c20d24282ea5b17e4847c4cc9cfb62dfb656be",
-  "sizeBytes": 9629946,
-  "notes": "1.6.7-fix — correção do instalador de atualizações beta; FileProvider agora inclui browser_beta_upgrades.",
+  "versionCode": 22,
+  "versionName": "1.6.8-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.8-fix.apk",
+  "sha256": "87a773a39866417fabcc4a85416213e471483c689cd92b222da2c0f5d6f9b632",
+  "sizeBytes": 9633990,
+  "notes": "1.6.8-fix — editor de extensões separado da tela de revisão e publicação.",
   "changelog": [
-    "Corrigido o erro Failed to find configured root ao instalar o APK beta baixado.",
-    "Adicionada ao FileProvider a raiz cache/browser_beta_upgrades usada pelo gerenciador de atualizações.",
-    "Mantida a preservação de cache, dados, favoritos, histórico e configurações.",
-    "CoolScript com wait([valor]) e correção de Web Apps continuam incluídos."
+    "Criada tela própria e rolável para criar ou editar extensões.",
+    "Criada tela própria para revisar manifesto e validar CoolScript antes de publicar.",
+    "Botões grandes e ações fixas para telas menores do Galaxy A15.",
+    "Mantida a preservação de dados e o FileProvider corrigido."
   ],
-  "publishedAt": "2026-08-15T18:58:05Z"
+  "publishedAt": "2026-08-15T19:07:27Z"
 }

@@ -3,18 +3,18 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 21,
-  "versionName": "1.8.0-beta.5",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.5.apk",
-  "sha256": "6fd01cc6be3949533b3f8bdfe71ba570798cc5375a36a11a5431f9370a9747d6",
-  "sizeBytes": 9629958,
+  "versionCode": 23,
+  "versionName": "1.8.0-beta.6",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.6.apk",
+  "sha256": "db73db25b7aadc385637e9c4b192ad22e52319771bd36432da1af309bcf30f49",
+  "sizeBytes": 9633994,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.5 — correção do FileProvider para instalar atualizações beta baixadas pelo próprio navegador.",
+  "notes": "1.8.0-beta.6 — fluxo separado para criar, revisar e publicar extensões.",
   "changelog": [
-    "Corrigido o erro Failed to find configured root ao instalar beta pelo atualizador interno.",
-    "Adicionada ao FileProvider a raiz cache/browser_beta_upgrades.",
-    "Mantidas a recuperação sem limpeza de dados, a correção de Web Apps e o CoolScript com wait([valor]).",
-    "O APK beta continua sujeito a erros experimentais e deve ser testado com backup."
+    "Editor de extensões separado em tela própria e rolável.",
+    "Tela de publicação mostra resumo, manifesto e status da validação.",
+    "CoolScript é validado antes de salvar ou publicar.",
+    "Mantidas as correções de FileProvider, Web Apps e recuperação sem limpeza de dados."
   ],
-  "publishedAt": "2026-08-15T18:58:05Z"
+  "publishedAt": "2026-08-15T19:07:27Z"
 }
