@@ -3,19 +3,18 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 16,
-  "versionName": "1.8.0-beta.3",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.3.apk",
-  "sha256": "bc73fc9cf3a4fd776053d590dea80362bcc18d82682ae6ee6d3532c38cd09c01",
-  "sizeBytes": 9625526,
+  "versionCode": 19,
+  "versionName": "1.8.0-beta.4",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.4.apk",
+  "sha256": "83b4f6f5ed53a821b3305f88bdd2a9d44049015448035e8930e1aece1f4ec4bd",
+  "sizeBytes": 9629922,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.3 — correção de inicialização e recuperação segura sem limpeza de cache ou dados.",
+  "notes": "1.8.0-beta.4 — correção de fechamento ao adicionar Web Apps com Intent válido.",
   "changelog": [
-    "Adicionada recuperação em processo separado para sobreviver a falhas de inicialização do WebView.",
-    "Falhas não capturadas agora registram o erro e abrem uma tela de recuperação, em vez de depender do aviso do Android para limpar cache.",
-    "Adicionado modo seguro que desativa os recursos beta e abre sem restaurar abas ou iniciar verificações remotas.",
-    "Favoritos, histórico, downloads, páginas offline, extensões e configurações continuam preservados.",
-    "Mantido o canal estável 1.6.4-fix sem alterações."
+    "Corrigido o NullPointerException `intent's action must be set` ao adicionar Web Apps.",
+    "Atalhos Web App agora usam ACTION_VIEW, URI válida e componente interno explícito.",
+    "Mantida a recuperação em processo separado e o modo seguro sem limpar dados.",
+    "Logs de diagnóstico continuam registrando inicialização e falhas sem conteúdo sensível."
   ],
-  "publishedAt": "2026-08-15T03:05:31Z"
+  "publishedAt": "2026-08-15T18:50:21Z"
 }

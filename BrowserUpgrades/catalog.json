@@ -2,18 +2,17 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 17,
-  "versionName": "1.6.5-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.5-fix.apk",
-  "sha256": "1c1241a2febd4c47cbc7e44641020f7214af45b35d79d8ec78d81b1bc02ce30f",
-  "sizeBytes": 9625510,
-  "notes": "1.6.5-fix — recuperação estável em processo separado, modo seguro e preservação de dados quando ocorre falha de inicialização.",
+  "versionCode": 18,
+  "versionName": "1.6.6-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.6-fix.apk",
+  "sha256": "8311b8bd95706e2a97ebb45b4eaa73759061e0544d1239b78287bb6491dc6b13",
+  "sizeBytes": 9629910,
+  "notes": "1.6.6-fix — correção do fechamento ao adicionar Web Apps; o Intent do atalho agora tem ação ACTION_VIEW e URI válida.",
   "changelog": [
-    "Corrigido o caminho de recuperação quando o processo principal do WebView falha ao iniciar.",
-    "Adicionada tela de recuperação em processo separado com abertura sem restaurar abas.",
-    "Falhas não capturadas agora são registradas localmente sem depender da recomendação do Android para limpar cache.",
-    "Favoritos, histórico, downloads, páginas offline, extensões e configurações continuam preservados.",
-    "O canal beta 1.8.0-beta.3 permanece disponível separadamente para testes."
+    "Corrigido o fechamento causado por criar um Web App com Intent sem ação.",
+    "Atalhos Web App agora usam ACTION_VIEW, URI HTTPS/HTTP e componente interno explícito.",
+    "Mantida a recuperação sem limpeza de cache ou dados.",
+    "A beta 1.8.0-beta.4 inclui a mesma correção para Web Apps."
   ],
-  "publishedAt": "2026-08-15T03:13:05Z"
+  "publishedAt": "2026-08-15T18:50:21Z"
 }
