@@ -3,17 +3,24 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 13,
-  "versionName": "1.7.0-beta.1",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.7.0-beta.1.apk",
-  "sha256": "3e8a4e8ef000e8491b12679c57ceae7539abc88abc32e43bef422304923a5be9",
-  "sizeBytes": 9596340,
+  "versionCode": 15,
+  "versionName": "1.8.0-beta.2",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.2.apk",
+  "sha256": "d94a3e7973a7deb27cab3e61ac62ba3303f2aa1f4951d30cde61abe7652acf93",
+  "sizeBytes": 9624082,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.7.0-beta.1 — versão experimental mantida para testes do canal beta.",
+  "notes": "1.8.0-beta.2 — pacote experimental com recursos opcionais e recuperação sem limpeza de cache.",
   "changelog": [
-    "Canal beta separado do canal estável.",
-    "Aviso de riscos obrigatório antes do download e da instalação.",
-    "A versão estável 1.6.4-fix possui recuperação e logs para investigar falhas após o beta."
+    "Corrigido o erro de compilação do Painel de privacidade e mantido o diagnóstico local.",
+    "Adicionadas configurações por site, economia extrema e métricas de desempenho.",
+    "Adicionados grupos de abas reorganizáveis, sessões, tela dividida, gestos e Toolbar personalizável.",
+    "Adicionado Leitor avançado com fonte, tamanho, espaçamento e fundo ajustáveis.",
+    "Adicionada fila de downloads com limite de 1 a 4 tarefas simultâneas e progresso persistente.",
+    "Adicionada Biblioteca offline com pastas, busca e espaço usado.",
+    "Adicionados widget da tela inicial, Web Apps em tela cheia e atalhos fixáveis.",
+    "Adicionados controles de vídeo com velocidade, repetição, PiP e tela cheia.",
+    "Backup beta ampliado inclui downloads e extensões quando ativado; dados da versão estável continuam preservados.",
+    "Todos os 16 recursos experimentais podem ser desativados individualmente em Configurações."
   ],
-  "publishedAt": "2026-08-15T03:00:00Z"
+  "publishedAt": "2026-08-15T02:57:36Z"
 }
