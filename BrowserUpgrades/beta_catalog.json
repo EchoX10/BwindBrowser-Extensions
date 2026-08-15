@@ -3,18 +3,18 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 23,
-  "versionName": "1.8.0-beta.6",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.6.apk",
-  "sha256": "db73db25b7aadc385637e9c4b192ad22e52319771bd36432da1af309bcf30f49",
-  "sizeBytes": 9633994,
+  "versionCode": 25,
+  "versionName": "1.8.0-beta.7",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.7.apk",
+  "sha256": "162dacd4bc0935f7ef9ae6620fc809a750dfd74d8208e47765ed832fd8dd600d",
+  "sizeBytes": 9637306,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.6 — fluxo separado para criar, revisar e publicar extensões.",
+  "notes": "1.8.0-beta.7 — CoolScript 1.0.1 com controles nativos no painel horizontal.",
   "changelog": [
-    "Editor de extensões separado em tela própria e rolável.",
-    "Tela de publicação mostra resumo, manifesto e status da validação.",
-    "CoolScript é validado antes de salvar ou publicar.",
-    "Mantidas as correções de FileProvider, Web Apps e recuperação sem limpeza de dados."
+    "button, label, text e input do CoolScript aparecem no painel horizontal do navegador.",
+    "Eventos de painel são executados nativamente sem inserir elementos no site.",
+    "wait([valor]) continua limitado a 60 segundos e validado antes de salvar.",
+    "Mantidas as telas separadas de extensões, FileProvider, Web Apps e recuperação sem limpeza de dados."
   ],
-  "publishedAt": "2026-08-15T19:07:27Z"
+  "publishedAt": "2026-08-15T20:14:31Z"
 }

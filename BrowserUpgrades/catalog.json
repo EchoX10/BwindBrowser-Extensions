@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 22,
-  "versionName": "1.6.8-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.8-fix.apk",
-  "sha256": "87a773a39866417fabcc4a85416213e471483c689cd92b222da2c0f5d6f9b632",
-  "sizeBytes": 9633990,
-  "notes": "1.6.8-fix — editor de extensões separado da tela de revisão e publicação.",
+  "versionCode": 24,
+  "versionName": "1.6.9-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.9-fix.apk",
+  "sha256": "335325acb8bb7bb1662a0a7499c6c478b6e25043fdc661e741f0a8b430c110aa",
+  "sizeBytes": 9637298,
+  "notes": "1.6.9-fix — CoolScript 1.0.1 renderiza controles visuais no scroll do navegador.",
   "changelog": [
-    "Criada tela própria e rolável para criar ou editar extensões.",
-    "Criada tela própria para revisar manifesto e validar CoolScript antes de publicar.",
-    "Botões grandes e ações fixas para telas menores do Galaxy A15.",
-    "Mantida a preservação de dados e o FileProvider corrigido."
+    "Elementos visuais CoolScript não são mais inseridos na página.",
+    "Botões, textos e inputs aparecem no scroll horizontal de funções do B-wind.",
+    "Eventos nativos mantêm wait([valor]), set.text, set.value, visibilidade e habilitação.",
+    "Mantida a preservação de dados, as telas separadas de extensões e o FileProvider corrigido."
   ],
-  "publishedAt": "2026-08-15T19:07:27Z"
+  "publishedAt": "2026-08-15T20:14:31Z"
 }
