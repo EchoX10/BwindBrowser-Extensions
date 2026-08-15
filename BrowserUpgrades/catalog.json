@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 24,
-  "versionName": "1.6.9-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.9-fix.apk",
-  "sha256": "335325acb8bb7bb1662a0a7499c6c478b6e25043fdc661e741f0a8b430c110aa",
-  "sizeBytes": 9637298,
-  "notes": "1.6.9-fix — CoolScript 1.0.1 renderiza controles visuais no scroll do navegador.",
+  "versionCode": 26,
+  "versionName": "1.6.10-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.10-fix.apk",
+  "sha256": "c29d8a5ae4125c34b5f1e18a1b139e5f1c28eb3ce83047aa9bf082170bf26533",
+  "sizeBytes": 9643850,
+  "notes": "1.6.10-fix — CoolScript 1.1 mantém compatibilidade com scripts legados 1.0.1.",
   "changelog": [
-    "Elementos visuais CoolScript não são mais inseridos na página.",
-    "Botões, textos e inputs aparecem no scroll horizontal de funções do B-wind.",
-    "Eventos nativos mantêm wait([valor]), set.text, set.value, visibilidade e habilitação.",
-    "Mantida a preservação de dados, as telas separadas de extensões e o FileProvider corrigido."
+    "Corrigido o validador CoolScript 1.1 para validar a palavra-chave de comando no início de cada linha.",
+    "Identificadores de controles, argumentos, atributos como id= e comandos legados set.text/set.value não são mais rejeitados como palavras-chave desconhecidas.",
+    "Scripts CoolScript 1.0.1 com button, events, wait([valor]) e toast continuam compilando normalmente.",
+    "Mantidas a preservação de dados, as telas separadas de extensões, o FileProvider corrigido e a recuperação sem limpeza de cache."
   ],
-  "publishedAt": "2026-08-15T20:14:31Z"
+  "publishedAt": "2026-08-15T23:43:59Z"
 }
