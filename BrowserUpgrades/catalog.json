@@ -1,20 +1,17 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
-  "versionCode": 11,
-  "versionName": "1.6.2-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.2-fix.apk",
-  "sha256": "1586d05bf770e813c9a94a12ad0982ddbcdd18f7dbac2cdef4b3d6eef4bd6d69",
-  "sizeBytes": 9593164,
-  "notes": "1.6.2-fix — modo anônimo isolado com limpeza completa e barra de endereço ampliada.",
+  "channel": "stable",
+  "versionCode": 12,
+  "versionName": "1.6.3-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.3-fix.apk",
+  "sha256": "07a9ec5ef32f60533fa6a31cb894b46dca7a25c5dae13670a55adc6e0b6e593b",
+  "sizeBytes": 9596328,
+  "notes": "1.6.3-fix — canal estável com atualizações experimentais beta nas Configurações.",
   "changelog": [
-    "Modo anônimo movido para atividade e processo Android separados.",
-    "Sessão privada usa diretório de dados exclusivo do WebView e não reutiliza contas, cookies, WebStorage, cache ou histórico da navegação normal.",
-    "Ao sair da sessão anônima, cookies, dados temporários, cache, histórico, formulários e página carregada são limpos.",
-    "Corrigido o botão + Anônima da tela de Abas para abrir a sessão privada isolada.",
-    "Barra de endereço ampliada, com altura maior, fonte de 16sp e área de toque confortável.",
-    "Toolbar reorganizada em duas linhas: endereço e menu na primeira; voltar, avançar e recarregar na segunda.",
-    "Mantidas as 36 extensões do catálogo, incluindo WebLab, Site Detective e Web Arcade."
+    "Adicionado o canal experimental beta com ativação explícita nas Configurações.",
+    "Adicionado catálogo beta separado e aviso obrigatório sobre riscos antes do download.",
+    "Mantidas as funções de sessão anônima isolada, barra de endereço ampliada e 36 extensões."
   ],
-  "publishedAt": "2026-08-14T22:10:00Z"
+  "publishedAt": "2026-08-14T23:00:00Z"
 }
