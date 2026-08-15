@@ -3,18 +3,18 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 25,
-  "versionName": "1.8.0-beta.7",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.7.apk",
-  "sha256": "162dacd4bc0935f7ef9ae6620fc809a750dfd74d8208e47765ed832fd8dd600d",
-  "sizeBytes": 9637306,
+  "versionCode": 27,
+  "versionName": "1.8.0-beta.8",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.8.apk",
+  "sha256": "481336db33e2282c8aa5b60ae5dddf2e733c54020ace3e93ee5196f0b0ca2742",
+  "sizeBytes": 9643858,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.7 — CoolScript 1.0.1 com controles nativos no painel horizontal.",
+  "notes": "1.8.0-beta.8 — CoolScript 1.1 com compatibilidade retroativa para scripts 1.0.1.",
   "changelog": [
-    "button, label, text e input do CoolScript aparecem no painel horizontal do navegador.",
-    "Eventos de painel são executados nativamente sem inserir elementos no site.",
-    "wait([valor]) continua limitado a 60 segundos e validado antes de salvar.",
-    "Mantidas as telas separadas de extensões, FileProvider, Web Apps e recuperação sem limpeza de dados."
+    "CoolScript 1.1 valida comandos pela primeira palavra da linha, distinguindo palavras-chave de identificadores e argumentos.",
+    "Corrigida a rejeição indevida de id=, IDs de controles como btn e sintaxe composta set.text/set.value/set.visible/set.enabled.",
+    "Scripts legados com button, events, wait([valor]) e toast passam novamente no parser e no compilador.",
+    "Mantidas as funções experimentais anteriores, os controles nativos no painel horizontal, as telas separadas de extensões e a recuperação sem limpeza de dados."
   ],
-  "publishedAt": "2026-08-15T20:14:31Z"
+  "publishedAt": "2026-08-15T23:43:59Z"
 }
