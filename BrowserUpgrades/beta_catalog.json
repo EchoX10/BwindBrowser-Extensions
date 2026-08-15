@@ -9,11 +9,11 @@
   "sha256": "3e8a4e8ef000e8491b12679c57ceae7539abc88abc32e43bef422304923a5be9",
   "sizeBytes": 9596340,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.7.0-beta.1 — primeira versão do canal experimental com consulta controlada pelas Configurações.",
+  "notes": "1.7.0-beta.1 — versão experimental mantida para testes do canal beta.",
   "changelog": [
-    "Adicionado canal beta separado do canal estável.",
-    "Adicionado aviso de riscos antes da consulta, do download e da instalação.",
-    "Mantidas sessão anônima isolada, barra de endereço ampliada e todas as extensões oficiais."
+    "Canal beta separado do canal estável.",
+    "Aviso de riscos obrigatório antes do download e da instalação.",
+    "A versão estável 1.6.4-fix possui recuperação e logs para investigar falhas após o beta."
   ],
-  "publishedAt": "2026-08-14T23:00:00Z"
+  "publishedAt": "2026-08-15T03:00:00Z"
 }

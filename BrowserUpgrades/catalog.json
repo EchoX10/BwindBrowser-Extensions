@@ -2,16 +2,18 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 12,
-  "versionName": "1.6.3-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.3-fix.apk",
-  "sha256": "07a9ec5ef32f60533fa6a31cb894b46dca7a25c5dae13670a55adc6e0b6e593b",
-  "sizeBytes": 9596328,
-  "notes": "1.6.3-fix — canal estável com atualizações experimentais beta nas Configurações.",
+  "versionCode": 14,
+  "versionName": "1.6.4-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.4-fix.apk",
+  "sha256": "cc6afe807973fda33ee0cad0ededb71394ce5ff42dd01dc153c1d9385d1f3627",
+  "sizeBytes": 9603222,
+  "notes": "1.6.4-fix — correção do fechamento após instalar beta, preservação de dados e logs de correções.",
   "changelog": [
-    "Adicionado o canal experimental beta com ativação explícita nas Configurações.",
-    "Adicionado catálogo beta separado e aviso obrigatório sobre riscos antes do download.",
-    "Mantidas as funções de sessão anônima isolada, barra de endereço ampliada e 36 extensões."
+    "Corrigida a recuperação depois de atualizar de uma versão beta para a estável.",
+    "O aplicativo tenta restaurar uma aba inicial sem pedir limpeza de cache ou dados.",
+    "Adicionados logs locais de inicialização, migração e erros fatais.",
+    "Adicionada tela para consultar, compartilhar e limpar manualmente os logs.",
+    "Protegida a sessão anônima contra falhas do diretório privado do WebView."
   ],
-  "publishedAt": "2026-08-14T23:00:00Z"
+  "publishedAt": "2026-08-15T03:00:00Z"
 }
