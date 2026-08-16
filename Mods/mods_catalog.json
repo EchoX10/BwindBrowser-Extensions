@@ -2,39 +2,5 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "beta",
-  "mods": [
-    {
-      "id": "community-mods-center",
-      "name": "Central de Mods",
-      "description": "Adiciona um cartão rápido para voltar à central de Mods do B-wind.",
-      "author": "Comunidade B-wind",
-      "type": "home_card",
-      "version": "1.0.0",
-      "homeTitle": "Central de Mods",
-      "homeUrl": "bwind://mods",
-      "permissions": "browser.home"
-    },
-    {
-      "id": "quick-extensions",
-      "name": "Atalho para Extensões",
-      "description": "Cria um cartão na tela inicial para abrir o gerenciador de extensões.",
-      "author": "Carlos Eduardo",
-      "type": "home_card",
-      "version": "1.0.0",
-      "homeTitle": "Minhas Extensões",
-      "homeUrl": "bwind://extensions",
-      "permissions": "browser.home"
-    },
-    {
-      "id": "quick-new-tab",
-      "name": "Nova Aba Rápida",
-      "description": "Adiciona um atalho de uma ação para abrir uma nova aba do B-wind.",
-      "author": "Comunidade B-wind",
-      "type": "home_card",
-      "version": "1.0.0",
-      "homeTitle": "Abrir nova aba",
-      "homeUrl": "bwind://newtab",
-      "permissions": "browser.home"
-    }
-  ]
+  "mods": []
 }
