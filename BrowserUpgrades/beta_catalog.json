@@ -3,20 +3,22 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 34,
-  "versionName": "1.8.0-beta.12",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.12.apk",
-  "sha256": "8177f225f0316e2febed70f65ea7d83c721fd1a42270252cfd3133525e932d40",
-  "sizeBytes": 9656146,
+  "versionCode": 35,
+  "versionName": "1.8.0-beta.13",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.13.apk",
+  "sha256": "45bc3f9bbfb82e86cd36f2df3a57be4175351d6ff32887df2b8a79a067d59a7d",
+  "sizeBytes": 9659122,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
-  "notes": "1.8.0-beta.12 — adiciona importação de arquivos .coolscript no editor de novas extensões.",
+  "notes": "1.8.0-beta.13 — adiciona um seletor próprio para localizar arquivos .coolscript no armazenamento público.",
   "changelog": [
-    "Adicionado o botão Importar arquivo .coolscript na tela beta de criação/edição de extensões.",
-    "O seletor aceita a seleção de documentos, mas o aplicativo só importa arquivos cujo nome termina em .coolscript.",
-    "O conteúdo do arquivo é lido automaticamente e colocado no campo CoolScript do editor.",
-    "Arquivos vazios ou maiores que 512 KB são rejeitados antes de preencher o editor.",
-    "O código importado continua passando pela validação CoolScript antes de salvar ou publicar.",
-    "A versão stable não mostra o botão de importação; a função permanece exclusiva da Beta."
+    "Adicionada a tela própria Arquivos CoolScript.",
+    "Antes da busca, o aplicativo solicita o acesso especial aos arquivos e não começa a varredura automaticamente sem autorização.",
+    "A busca percorre somente /storage/emulated/0/ e seus subdiretórios.",
+    "A lista exibe somente arquivos cujo nome termina em .coolscript.",
+    "Cada resultado aparece como um botão clicável com o nome do arquivo e o caminho relativo.",
+    "O arquivo escolhido é lido e seu conteúdo retorna diretamente para o campo CoolScript do editor.",
+    "Arquivos vazios e maiores que 512 KB continuam sendo rejeitados.",
+    "O seletor próprio e a permissão especial permanecem exclusivos da Beta."
   ],
-  "publishedAt": "2026-08-16T02:04:45Z"
+  "publishedAt": "2026-08-16T02:25:06Z"
 }
