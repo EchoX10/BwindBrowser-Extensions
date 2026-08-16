@@ -3,18 +3,21 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 27,
-  "versionName": "1.8.0-beta.8",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.8.apk",
-  "sha256": "481336db33e2282c8aa5b60ae5dddf2e733c54020ace3e93ee5196f0b0ca2742",
-  "sizeBytes": 9643858,
+  "versionCode": 29,
+  "versionName": "1.8.0-beta.9",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.9.apk",
+  "sha256": "6b8fe54f9b2cf4419807f055fbaaf09b0d7dad9381df78c39302dee11b648f1c",
+  "sizeBytes": 9653166,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.8 — CoolScript 1.1 com compatibilidade retroativa para scripts 1.0.1.",
+  "notes": "1.8.0-beta.9 — CoolScript 1.2 experimental com telas próprias de extensão, formulários, navegação interna e armazenamento isolado.",
   "changelog": [
-    "CoolScript 1.1 valida comandos pela primeira palavra da linha, distinguindo palavras-chave de identificadores e argumentos.",
-    "Corrigida a rejeição indevida de id=, IDs de controles como btn e sintaxe composta set.text/set.value/set.visible/set.enabled.",
-    "Scripts legados com button, events, wait([valor]) e toast passam novamente no parser e no compilador.",
-    "Mantidas as funções experimentais anteriores, os controles nativos no painel horizontal, as telas separadas de extensões e a recuperação sem limpeza de dados."
+    "Adicionadas 60 novas palavras-chave, elevando o catálogo CoolScript de 200 para 260 sem remover as anteriores.",
+    "Extensões CoolScript 1.2 podem declarar telas nativas próprias com textos, botões, campos, checkbox e dropdown.",
+    "Adicionada navegação entre telas com navigate, replace e pushscreen, além de voltar/fechar tela.",
+    "Adicionado armazenamento privado por extensão com storeset, storeget, storehas, storedel e storeclear.",
+    "Adicionadas validação de campos obrigatórios e ações de restauração de formulário.",
+    "O instalador remoto agora carrega a entrada CoolScript do manifesto do pacote e o gerenciador mostra Abrir tela.",
+    "Scripts CoolScript 1.0.1 e 1.1 continuam aceitos pelo parser e pelo compilador legado."
   ],
-  "publishedAt": "2026-08-15T23:43:59Z"
+  "publishedAt": "2026-08-16T00:43:40Z"
 }
