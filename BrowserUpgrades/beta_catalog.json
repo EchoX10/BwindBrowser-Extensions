@@ -3,21 +3,22 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 29,
-  "versionName": "1.8.0-beta.9",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.9.apk",
-  "sha256": "6b8fe54f9b2cf4419807f055fbaaf09b0d7dad9381df78c39302dee11b648f1c",
-  "sizeBytes": 9653166,
-  "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. Você pode voltar ao canal estável instalando uma versão estável mais nova.",
-  "notes": "1.8.0-beta.9 — CoolScript 1.2 experimental com telas próprias de extensão, formulários, navegação interna e armazenamento isolado.",
+  "versionCode": 31,
+  "versionName": "1.8.0-beta.10",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.10.apk",
+  "sha256": "d819b18577ec729b6b1ed170fdab58b6f5744c28bd001d98873f5e570f2a2a22",
+  "sizeBytes": 9654154,
+  "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. A stable não mostra nem configura recursos beta.",
+  "notes": "1.8.0-beta.10 — canal beta separado com central ampliada de recursos experimentais e novos controles CoolScript 1.2.",
   "changelog": [
-    "Adicionadas 60 novas palavras-chave, elevando o catálogo CoolScript de 200 para 260 sem remover as anteriores.",
-    "Extensões CoolScript 1.2 podem declarar telas nativas próprias com textos, botões, campos, checkbox e dropdown.",
-    "Adicionada navegação entre telas com navigate, replace e pushscreen, além de voltar/fechar tela.",
-    "Adicionado armazenamento privado por extensão com storeset, storeget, storehas, storedel e storeclear.",
-    "Adicionadas validação de campos obrigatórios e ações de restauração de formulário.",
-    "O instalador remoto agora carrega a entrada CoolScript do manifesto do pacote e o gerenciador mostra Abrir tela.",
-    "Scripts CoolScript 1.0.1 e 1.1 continuam aceitos pelo parser e pelo compilador legado."
+    "A aba de configuração de recursos beta foi removida da versão stable.",
+    "A central de recursos experimentais continua disponível somente na beta.",
+    "A beta ganhou toggles para Telas próprias CoolScript, Armazenamento CoolScript, Navegação entre telas CoolScript e Validação de formulários CoolScript.",
+    "A tela de extensões CoolScript 1.2 só aparece na beta quando Telas próprias CoolScript estiver ativado.",
+    "Armazenamento, navegação e validação podem ser ligados ou desligados separadamente para testar regressões.",
+    "A recuperação segura agora desativa também os quatro novos recursos CoolScript beta.",
+    "A stable não consulta o catálogo beta e não oferece o item Configurar recursos beta no menu.",
+    "As 200 palavras-chave originais e os scripts CoolScript 1.0.1/1.1 continuam compatíveis."
   ],
-  "publishedAt": "2026-08-16T00:43:40Z"
+  "publishedAt": "2026-08-16T01:34:13Z"
 }
