@@ -3,19 +3,20 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 33,
-  "versionName": "1.8.0-beta.11",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.11.apk",
-  "sha256": "ca4f3931437430c153dc059bbaa1ba2b4c810400d1ec5b07501562bc18aec8d2",
-  "sizeBytes": 9654538,
+  "versionCode": 34,
+  "versionName": "1.8.0-beta.12",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.12.apk",
+  "sha256": "8177f225f0316e2febed70f65ea7d83c721fd1a42270252cfd3133525e932d40",
+  "sizeBytes": 9656146,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
-  "notes": "1.8.0-beta.11 — corrige a entrada no canal beta a partir da stable e mantém a configuração experimental exclusiva da Beta.",
+  "notes": "1.8.0-beta.12 — adiciona importação de arquivos .coolscript no editor de novas extensões.",
   "changelog": [
-    "Corrigido o caminho de entrada: a stable agora consulta e oferece a instalação da Beta por um botão independente.",
-    "A configuração dos recursos experimentais continua disponível somente dentro da Beta.",
-    "A Beta mantém os toggles de telas CoolScript, armazenamento, navegação entre telas e validação de formulários.",
-    "A stable não consulta o catálogo beta automaticamente e não mostra a central de recursos beta.",
-    "Scripts CoolScript 1.0.1/1.1 e dados locais continuam preservados."
+    "Adicionado o botão Importar arquivo .coolscript na tela beta de criação/edição de extensões.",
+    "O seletor aceita a seleção de documentos, mas o aplicativo só importa arquivos cujo nome termina em .coolscript.",
+    "O conteúdo do arquivo é lido automaticamente e colocado no campo CoolScript do editor.",
+    "Arquivos vazios ou maiores que 512 KB são rejeitados antes de preencher o editor.",
+    "O código importado continua passando pela validação CoolScript antes de salvar ou publicar.",
+    "A versão stable não mostra o botão de importação; a função permanece exclusiva da Beta."
   ],
-  "publishedAt": "2026-08-16T01:39:56Z"
+  "publishedAt": "2026-08-16T02:04:45Z"
 }
