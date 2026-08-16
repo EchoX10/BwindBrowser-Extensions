@@ -3,22 +3,23 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 35,
-  "versionName": "1.8.0-beta.13",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.13.apk",
-  "sha256": "45bc3f9bbfb82e86cd36f2df3a57be4175351d6ff32887df2b8a79a067d59a7d",
-  "sizeBytes": 9659122,
+  "versionCode": 36,
+  "versionName": "1.8.0-beta.14",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.14.apk",
+  "sha256": "891d1fe46f1555f0935c63a5df434a063fa1077e2c026a4011e5f5aa81e38183",
+  "sizeBytes": 9664706,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
-  "notes": "1.8.0-beta.13 — adiciona um seletor próprio para localizar arquivos .coolscript no armazenamento público.",
+  "notes": "1.8.0-beta.14 — adiciona o sistema separado de Mods com tela própria e botão na tela inicial.",
+  "modsCatalogUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Mods/mods_catalog.json",
   "changelog": [
-    "Adicionada a tela própria Arquivos CoolScript.",
-    "Antes da busca, o aplicativo solicita o acesso especial aos arquivos e não começa a varredura automaticamente sem autorização.",
-    "A busca percorre somente /storage/emulated/0/ e seus subdiretórios.",
-    "A lista exibe somente arquivos cujo nome termina em .coolscript.",
-    "Cada resultado aparece como um botão clicável com o nome do arquivo e o caminho relativo.",
-    "O arquivo escolhido é lido e seu conteúdo retorna diretamente para o campo CoolScript do editor.",
-    "Arquivos vazios e maiores que 512 KB continuam sendo rejeitados.",
-    "O seletor próprio e a permissão especial permanecem exclusivos da Beta."
+    "Adicionado o botão Mods na tela inicial da Beta.",
+    "Criada a tela própria Mods, separada do gerenciador de Extensões.",
+    "Adicionada busca de Mods publicados pela comunidade em catálogo GitHub.",
+    "Cada Mod mostra nome, autor, versão, descrição e permissões antes da instalação.",
+    "Adicionadas ações Instalar, Ativar, Desativar e Remover.",
+    "Mods instalados são armazenados separadamente das Extensões e incluídos no backup beta ampliado.",
+    "A primeira API de Mods permite somente cartões seguros na tela inicial e links aprovados do B-wind.",
+    "Mods não executam Java, código arbitrário, scripts na página, nem acessam senhas, cookies ou histórico."
   ],
-  "publishedAt": "2026-08-16T02:25:06Z"
+  "publishedAt": "2026-08-16T02:39:14Z"
 }
