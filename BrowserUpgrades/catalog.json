@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 28,
-  "versionName": "1.6.11-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.11-fix.apk",
-  "sha256": "c173183e1fb38d70337514cbcd73d0eae7d7d504f9139bc5c693725accde7deb",
-  "sizeBytes": 9653154,
-  "notes": "1.6.11-fix — preparação da API CoolScript 1.2 com telas próprias e preservação da compatibilidade 1.0.1/1.1.",
+  "versionCode": 30,
+  "versionName": "1.6.12-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.12-fix.apk",
+  "sha256": "24ceb37e1f1e8f3c93637473623119e25b787c57ba8c9ac191500540597c0c59",
+  "sizeBytes": 9654146,
+  "notes": "1.6.12-fix — separa definitivamente a configuração experimental da stable e preserva os recursos estáveis anteriores.",
   "changelog": [
-    "Mantida a compatibilidade com scripts CoolScript 1.0.1 e 1.1 existentes.",
-    "Adicionado armazenamento isolado por extensão para a nova API de telas.",
-    "Corrigido o carregamento seguro de extensões com entrada CoolScript no pacote.",
-    "A API de telas é experimental e deve ser usada preferencialmente no canal beta até a validação final."
+    "Removida da stable a seção de configuração de atualizações e recursos beta.",
+    "Removido da stable o item Configurar recursos beta do menu principal.",
+    "A stable não consulta mais o catálogo beta, mesmo que uma preferência antiga esteja salva.",
+    "Recursos e dados já existentes continuam preservados sem limpeza de cache."
   ],
-  "publishedAt": "2026-08-16T00:43:40Z"
+  "publishedAt": "2026-08-16T01:34:13Z"
 }
