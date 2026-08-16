@@ -3,22 +3,19 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 31,
-  "versionName": "1.8.0-beta.10",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.10.apk",
-  "sha256": "d819b18577ec729b6b1ed170fdab58b6f5744c28bd001d98873f5e570f2a2a22",
-  "sizeBytes": 9654154,
-  "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar. A stable não mostra nem configura recursos beta.",
-  "notes": "1.8.0-beta.10 — canal beta separado com central ampliada de recursos experimentais e novos controles CoolScript 1.2.",
+  "versionCode": 33,
+  "versionName": "1.8.0-beta.11",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.11.apk",
+  "sha256": "ca4f3931437430c153dc059bbaa1ba2b4c810400d1ec5b07501562bc18aec8d2",
+  "sizeBytes": 9654538,
+  "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
+  "notes": "1.8.0-beta.11 — corrige a entrada no canal beta a partir da stable e mantém a configuração experimental exclusiva da Beta.",
   "changelog": [
-    "A aba de configuração de recursos beta foi removida da versão stable.",
-    "A central de recursos experimentais continua disponível somente na beta.",
-    "A beta ganhou toggles para Telas próprias CoolScript, Armazenamento CoolScript, Navegação entre telas CoolScript e Validação de formulários CoolScript.",
-    "A tela de extensões CoolScript 1.2 só aparece na beta quando Telas próprias CoolScript estiver ativado.",
-    "Armazenamento, navegação e validação podem ser ligados ou desligados separadamente para testar regressões.",
-    "A recuperação segura agora desativa também os quatro novos recursos CoolScript beta.",
-    "A stable não consulta o catálogo beta e não oferece o item Configurar recursos beta no menu.",
-    "As 200 palavras-chave originais e os scripts CoolScript 1.0.1/1.1 continuam compatíveis."
+    "Corrigido o caminho de entrada: a stable agora consulta e oferece a instalação da Beta por um botão independente.",
+    "A configuração dos recursos experimentais continua disponível somente dentro da Beta.",
+    "A Beta mantém os toggles de telas CoolScript, armazenamento, navegação entre telas e validação de formulários.",
+    "A stable não consulta o catálogo beta automaticamente e não mostra a central de recursos beta.",
+    "Scripts CoolScript 1.0.1/1.1 e dados locais continuam preservados."
   ],
-  "publishedAt": "2026-08-16T01:34:13Z"
+  "publishedAt": "2026-08-16T01:39:56Z"
 }
