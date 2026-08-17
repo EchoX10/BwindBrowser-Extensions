@@ -6,10 +6,10 @@
   "versionCode": 38,
   "versionName": "1.8.0-beta.16",
   "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.16.apk",
-  "sha256": "00e92afcc9d41b4b35018de3d6c0570a04649acb4d6d49bc6e53165a8668c559",
-  "sizeBytes": 9678608,
+  "sha256": "4aa6075d8cac7885ecdfb59c7ae9c7974ccf6ff88383dae7d9a8fccce1d8c443",
+  "sizeBytes": 9782816,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
-  "notes": "1.8.0-beta.16 — adiciona o sistema de notificações com solicitação de permissão controlada.",
+  "notes": "1.8.0-beta.16 — adiciona o sistema de notificações com solicitação de permissão controlada e o ícone personalizado do B-wind.",
   "changelog": [
     "Adicionado o sistema central de notificações do B-wind Browser.",
     "No Android 13 ou superior, a permissão de notificações é solicitada somente uma vez na primeira entrada no navegador.",
@@ -17,6 +17,7 @@
     "Adicionada a seção Notificações nas Configurações, com estado da permissão e acesso direto às configurações do Android.",
     "Adicionado botão de notificação de teste para confirmar se as notificações estão funcionando.",
     "Downloads agora exibem um aviso do B-wind quando são iniciados, além da notificação própria do DownloadManager.",
+    "O ícone das notificações usa o PNG monocromático transparente enviado pelo autor, preservando a silhueta do B-wind na barra de status.",
     "A permissão POST_NOTIFICATIONS e o canal B-wind Browser foram registrados de forma compatível com Android 13+.",
     "A atualização preserva abas, favoritos, extensões, Mods, histórico, downloads e configurações sem limpar cache."
   ],
