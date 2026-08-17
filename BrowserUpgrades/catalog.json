@@ -2,18 +2,20 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "stable",
-  "versionCode": 32,
-  "versionName": "1.6.13-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.13-fix.apk",
-  "sha256": "d30d2cb501f8a22a6749118591693aa28e0ce1b5d5ec805b459c8bb5deb1b4c8",
-  "sizeBytes": 9654530,
-  "notes": "1.6.13-fix — mantém a stable sem configurações beta e devolve uma entrada independente para consultar e instalar o canal beta.",
+  "experimental": false,
+  "versionCode": 33,
+  "versionName": "1.6.14-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.6.14-fix.apk",
+  "sha256": "653de02a29e7cbebfb3190e9eff11ba9b1eedbeafb77330ecc3df3be00bc6cf7",
+  "sizeBytes": 9794411,
+  "notes": "1.6.14-fix — corrige a consulta e o download de atualizações stable, beta e do aplicativo companheiro.",
   "changelog": [
-    "Adicionado o botão Verificar e instalar versão beta na stable.",
-    "A stable continua sem a central de configuração de recursos beta.",
-    "A stable continua sem o item Configurar recursos beta no menu principal.",
-    "O botão da stable apenas consulta e instala a Beta; a configuração dos recursos permanece exclusiva da Beta.",
-    "Nenhum cache, favorito, download, extensão ou dado local é apagado."
+    "Corrigido o erro que informava servidor indisponível ao consultar ou baixar atualizações.",
+    "Adicionado fallback automático para a API de conteúdo do GitHub quando o domínio raw retorna 429, 502 ou outra falha transitória.",
+    "Ativados redirecionamentos HTTP seguros e User-Agent identificando o B-wind nas conexões.",
+    "Mantidas as verificações de tamanho, SHA-256, pacote, versão e assinatura do APK.",
+    "Mantido o botão Bloqueador de anúncios e o instalador do aplicativo companheiro.",
+    "Dados do usuário continuam preservados sem limpeza de cache."
   ],
-  "publishedAt": "2026-08-16T01:39:56Z"
+  "publishedAt": "2026-08-17T00:00:00Z"
 }
