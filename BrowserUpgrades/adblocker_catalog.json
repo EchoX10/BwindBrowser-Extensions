@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "packageName": "com.bwind.adblocker",
-  "versionCode": 1,
-  "versionName": "1.0.0",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindAdBlocker_1.0.0.apk",
-  "sha256": "57f4244fd8ec3bf2e2cb97cb352f645c24efc51aeb59e09cffa3a45dadff5139",
-  "sizeBytes": 5544150,
-  "notes": "Aplicativo companheiro para configurar anúncios, rastreadores, modo rigoroso e regras personalizadas sincronizadas com o B-wind.",
-  "security": "O app companheiro se comunica com o B-wind por ContentProvider protegido por permissão de assinatura. Os dois APKs precisam ser assinados pela mesma chave oficial."
+  "versionCode": 2,
+  "versionName": "1.0.1-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindAdBlocker_1.0.1-fix.apk",
+  "sha256": "844503f14284a29c47a9c8f982a2079a616924d1fced79876a1a7f6116df74c7",
+  "sizeBytes": 5544162,
+  "notes": "1.0.1-fix — corrige o download do catálogo e do APK do app companheiro usando fallback da API do GitHub.",
+  "security": "O app companheiro continua usando a permissão de assinatura compartilhada com o B-wind e valida o pacote, a versão, o tamanho, o SHA-256 e a assinatura antes de ser instalado."
 }
