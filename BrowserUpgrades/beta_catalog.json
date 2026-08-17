@@ -3,21 +3,20 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 40,
-  "versionName": "1.8.0-beta.17-fix",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.17-fix.apk",
-  "sha256": "2331e00ec8aa0c7e309c4c5f557b195f9956f8c6c043148a54148634508786dd",
-  "sizeBytes": 9794419,
+  "versionCode": 41,
+  "versionName": "1.8.0-beta.18-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.18-fix.apk",
+  "sha256": "336e9f1c00956886a4a7ecc6f7725836dbe4a228fa2d9e71f3e1746c803aaa49",
+  "sizeBytes": 9794471,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
-  "notes": "1.8.0-beta.17-fix — corrige o download da Beta, da stable e do B-wind Bloqueador.",
+  "notes": "1.8.0-beta.18-fix — corrige o crash ao instalar o B-wind Bloqueador pela pasta de cache do app companheiro.",
   "adBlockerCatalogUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/adblocker_catalog.json",
   "changelog": [
-    "Corrigido o erro de servidor indisponível nos downloads stable, beta e do aplicativo companheiro.",
-    "Adicionado fallback automático para a API de conteúdo do GitHub quando o domínio raw retorna 429, 502 ou outra falha transitória.",
-    "Ativados redirecionamentos HTTP seguros, User-Agent e tempos de conexão maiores.",
-    "Mantidas as verificações de tamanho, SHA-256, pacote, versão e assinatura.",
-    "O botão Bloqueador de anúncios continua instalando o app companheiro após validar o APK.",
-    "Dados do usuário continuam preservados sem limpeza de cache."
+    "Corrigido o crash `Failed to find configured root` ao instalar o B-wind Bloqueador.",
+    "Adicionada ao FileProvider a raiz segura `cache/adblocker_companion/`.",
+    "O APK do companheiro continua sendo validado por tamanho, SHA-256, pacote, versão e assinatura antes da instalação.",
+    "Mantido o fallback de download para a API de conteúdo do GitHub.",
+    "Nenhum cache ou dado do usuário é apagado durante a atualização."
   ],
   "publishedAt": "2026-08-17T00:00:00Z"
 }
