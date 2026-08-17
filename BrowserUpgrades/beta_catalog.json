@@ -3,23 +3,21 @@
   "packageName": "com.bwind.browser",
   "channel": "beta",
   "experimental": true,
-  "versionCode": 39,
-  "versionName": "1.8.0-beta.17",
-  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.17.apk",
-  "sha256": "9296737a2c0aa5cd4167eb46ac6451a27eef2acc2143c905620bc552e7fd536c",
-  "sizeBytes": 9792915,
+  "versionCode": 40,
+  "versionName": "1.8.0-beta.17-fix",
+  "apkUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/BwindBrowser_1.8.0-beta.17-fix.apk",
+  "sha256": "2331e00ec8aa0c7e309c4c5f557b195f9956f8c6c043148a54148634508786dd",
+  "sizeBytes": 9794419,
   "warning": "ATENÇÃO: esta é uma versão experimental. Ela pode conter erros, travamentos, funções incompletas, incompatibilidades e maior consumo de bateria. Faça backup dos seus dados antes de instalar.",
-  "notes": "1.8.0-beta.17 — adiciona o B-wind Bloqueador, aplicativo companheiro para configurar o bloqueador inteligente.",
+  "notes": "1.8.0-beta.17-fix — corrige o download da Beta, da stable e do B-wind Bloqueador.",
   "adBlockerCatalogUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/BrowserUpgrades/adblocker_catalog.json",
   "changelog": [
-    "Adicionado o botão Bloqueador de anúncios no lugar do botão Navegar na barra inferior.",
-    "O botão verifica se o app companheiro B-wind Bloqueador está instalado e oferece o download e a instalação do APK oficial.",
-    "Criado o B-wind Bloqueador, um aplicativo separado para configurar anúncios, rastreadores, modo rigoroso e regras personalizadas.",
-    "As configurações são enviadas ao B-wind por ContentProvider protegido por permissão de assinatura.",
-    "O navegador aplica as configurações recebidas no filtro de requisições do WebView em todas as abas.",
-    "A instalação do companheiro verifica URL, tamanho, SHA-256, pacote, versão e assinatura antes de abrir o instalador Android.",
-    "A configuração antiga do bloqueador continua preservada até o usuário salvar a primeira configuração do app companheiro.",
-    "A atualização preserva abas, favoritos, extensões, Mods, histórico, downloads e configurações sem limpar cache."
+    "Corrigido o erro de servidor indisponível nos downloads stable, beta e do aplicativo companheiro.",
+    "Adicionado fallback automático para a API de conteúdo do GitHub quando o domínio raw retorna 429, 502 ou outra falha transitória.",
+    "Ativados redirecionamentos HTTP seguros, User-Agent e tempos de conexão maiores.",
+    "Mantidas as verificações de tamanho, SHA-256, pacote, versão e assinatura.",
+    "O botão Bloqueador de anúncios continua instalando o app companheiro após validar o APK.",
+    "Dados do usuário continuam preservados sem limpeza de cache."
   ],
-  "publishedAt": "2026-08-16T00:00:00Z"
+  "publishedAt": "2026-08-17T00:00:00Z"
 }
