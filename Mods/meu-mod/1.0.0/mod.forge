@@ -1,0 +1,29 @@
+forge 1.0
+mod "Painel Turbo Flutuante"
+author "Carlos"
+version "1.0.0"
+permission browser.toolbar
+permission browser.navigation
+permission browser.home
+
+label id="turboLabel" text="PAINEL TURBO" hint="Atalhos de navegação" position="toolbar" color="#37134F" textColor="#FFFFFF" radius="80" height="40"
+button id="turboHome" text="Início" hint="Abrir página inicial" position="toolbar" color="#FF4FA3" textColor="#FFFFFF" radius="80" width="116"
+button id="turboBack" text="Voltar" hint="Voltar uma página" position="toolbar" color="#8B5CF6" textColor="#FFFFFF" radius="80" width="116"
+button id="turboForward" text="Avançar" hint="Avançar uma página" position="toolbar" color="#3B82F6" textColor="#FFFFFF" radius="80" width="116"
+button id="turboReload" text="Recarregar" hint="Recarregar página atual" position="toolbar" color="#10B981" textColor="#FFFFFF" radius="80" width="128"
+
+on turboHome.click
+    browser.home
+    toast "Página inicial aberta pelo Painel Turbo"
+
+on turboBack.click
+    browser.back
+    toast "Voltando uma página"
+
+on turboForward.click
+    browser.forward
+    toast "Avançando uma página"
+
+on turboReload.click
+    browser.reload
+    toast "Página recarregada"
