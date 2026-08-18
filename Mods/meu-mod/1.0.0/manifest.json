@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "kind": "mod",
+  "id": "bwind.mod.meu-mod",
+  "name": "Meu Mod",
+  "version": "1.0.0",
+  "description": "O que meu Mod faz",
+  "author": "Meu nome",
+  "permissions": [
+    "browser.home",
+    "browser.navigation",
+    "browser.toolbar"
+  ],
+  "entry": {
+    "forgeScript": "mod.forge"
+  }
+}
