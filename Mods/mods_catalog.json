@@ -2,5 +2,19 @@
   "schemaVersion": 1,
   "packageName": "com.bwind.browser",
   "channel": "beta",
-  "mods": []
+  "mods": [
+    {
+      "id": "bwind.mod.meu-mod",
+      "name": "Meu Mod",
+      "description": "O que meu Mod faz",
+      "author": "Meu nome",
+      "type": "home_card",
+      "version": "1.0.0",
+      "homeTitle": "Meu Mod",
+      "homeUrl": "bwind://mods",
+      "permissions": "browser.home,browser.navigation,browser.toolbar",
+      "forgeScript": "forge 1.0\nmod \"Painel Turbo Flutuante\"\nauthor \"Carlos\"\nversion \"1.0.0\"\npermission browser.toolbar\npermission browser.navigation\npermission browser.home\n\nlabel id=\"turboLabel\" text=\"PAINEL TURBO\" hint=\"Atalhos de navegação\" position=\"toolbar\" color=\"#37134F\" textColor=\"#FFFFFF\" radius=\"80\" height=\"40\"\nbutton id=\"turboHome\" text=\"Início\" hint=\"Abrir página inicial\" position=\"toolbar\" color=\"#FF4FA3\" textColor=\"#FFFFFF\" radius=\"80\" width=\"116\"\nbutton id=\"turboBack\" text=\"Voltar\" hint=\"Voltar uma página\" position=\"toolbar\" color=\"#8B5CF6\" textColor=\"#FFFFFF\" radius=\"80\" width=\"116\"\nbutton id=\"turboForward\" text=\"Avançar\" hint=\"Avançar uma página\" position=\"toolbar\" color=\"#3B82F6\" textColor=\"#FFFFFF\" radius=\"80\" width=\"116\"\nbutton id=\"turboReload\" text=\"Recarregar\" hint=\"Recarregar página atual\" position=\"toolbar\" color=\"#10B981\" textColor=\"#FFFFFF\" radius=\"80\" width=\"128\"\n\non turboHome.click\n    browser.home\n    toast \"Página inicial aberta pelo Painel Turbo\"\n\non turboBack.click\n    browser.back\n    toast \"Voltando uma página\"\n\non turboForward.click\n    browser.forward\n    toast \"Avançando uma página\"\n\non turboReload.click\n    browser.reload\n    toast \"Página recarregada\"",
+      "manifestUrl": "https://raw.githubusercontent.com/EchoX10/BwindBrowser-Extensions/main/Mods/meu-mod/1.0.0/manifest.json"
+    }
+  ]
 }
